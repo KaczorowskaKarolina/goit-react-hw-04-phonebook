@@ -1,17 +1,17 @@
-# Expresso cafe - Feedback app
+# Phonebook app
 
 ---
 
-Simple application showing satisfaction statistics
+A simple app to store your phone book contacts.
 
 ## Introduction
 
 ---
 
-Expresso cafe collects feedback from it's customers. Statistics collection
-application. There are only three answer options: good, neutral, bad. The
-application displays the number of responses collected for each category, the
-total number of votes cast and the percentage of positive responses.
+The application consists of a form and a contact list. It is used to store phone
+contacts, search for contacts and, if necessary, delete them.
+
+![Phonebook](src/phonebook.jpg)
 
 ## Technologies
 
