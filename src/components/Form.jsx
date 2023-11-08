@@ -47,7 +47,9 @@ const Form = ({ onSubmit }) => {
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
           title="Name may contain only letters, apostrophe, dash and spaces."
           required
-          placeholder="name"
+          placeholder="Name"
+          id={nameId} // Added id attribute to correspond to the 'for' attribute in the label
+          autoComplete="off" // Added autocomplete attribute to prevent autofilling
         />
       </label>
       <label className="label" htmlFor={numberId}>
@@ -60,7 +62,9 @@ const Form = ({ onSubmit }) => {
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
           title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
           required
-          placeholder="number"
+          placeholder="Number"
+          id={numberId} // Added id attribute to correspond to the 'for' attribute in the label
+          autoComplete="off" // Added autocomplete attribute to prevent autofilling
         />
       </label>
       <button type="submit">Add contact</button>
