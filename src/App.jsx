@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Form from './Form';
-import Filter from './Filter';
-import List from './List';
+import Form from './components/Form';
+import Filter from './components/Filter';
+import List from './components/List';
 import { nanoid } from 'nanoid';
 
-import css from './app.css';
+import css from './styles/app.css';
 
 const App = () => {
   const [contacts, setContacts] = useState([

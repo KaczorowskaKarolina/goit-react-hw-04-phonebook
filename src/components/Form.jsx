@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import './form.css';
+import '../styles/form.css';
 import { nanoid } from 'nanoid';
 
 const Form = ({ onSubmit }) => {

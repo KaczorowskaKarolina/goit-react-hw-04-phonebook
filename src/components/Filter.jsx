@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './filter.css';
+import '../styles/filter.css';
 
 const Filter = ({ value, onChange }) => (
   <div className="filterContainer">
